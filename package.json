@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "http-server": "^13.0.1"
+  }
+}
