@@ -6,7 +6,6 @@ CONTENTS OF THIS FILE
  * Introduction
  * Requirements
  * How to Run
- * Roadmap of future improvements
  * Maintainers
  * License
  
