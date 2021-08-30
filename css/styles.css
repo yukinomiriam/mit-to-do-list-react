@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family:  "Trirong", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Trirong", serif;
+}
+
+.container-wrapper {
+  border: 1px solid rgba(0,0,0, 0.15);
+  margin-top: 20px;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  max-width: 650px;
+  box-shadow: 5px 5px 5px rgba(0,0,0, 0.15);
+
+
+}
+
+.app {
+  background: #209cee;
+  padding: 30px;
+  height: 100vh;
+}
+
+.todo-list{
+  background: #e8e8e8;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 400px;
+}
+
+.todo{
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0,0,0, 0.15);
+  padding: 3px 10px;
+  font-size: 20px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input{
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  padding: 1rem;
+  height: 2.25em;
+  font-size: 24px;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.container-header{
+  background-color:#209cee;
+  width: 100%;
+}

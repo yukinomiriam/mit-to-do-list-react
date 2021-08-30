@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>ToDo</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <!-- don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+
+    
+
+    <!-- we will put our teact component inside this div -->
+    <div id="container" class="container-sm container-wrapper">
+      <div id="header" class="card-header">
+        <h2>To Do List</h2>
+      </div>
+      
+      <div id="root" ></div>
+    </div> 
+
+    <!--load bootstrap -->
+    <script src="js/bootstrap/bootstrap.js"></script>
+    <!-- load react -->
+    <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- load our react components. -->
+    <script src="js/components/form.js" defer type="text/babel"></script>
+    <script src="js/components/todoItem.js" defer type="text/babel"></script>
+    <script src="js/index.js" defer type="text/babel"></script>
+    
+
+
+  </body>
+</html>
